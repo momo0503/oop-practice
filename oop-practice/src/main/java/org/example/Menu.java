@@ -12,8 +12,7 @@ public class Menu {
 
     public MenuItem choose(String name) {
 
-        return this.menuItems.stream()
-                .filter(menuItem -> )
+        return new MenuItem("돈까스",5000);
     }
 
 }
